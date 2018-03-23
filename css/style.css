@@ -1,0 +1,163 @@
+body{
+	background-image: url(../images/signup-background.jpg);
+	height:800px;
+}
+
+.sign-up{
+	border: 1px solid lightgrey;
+    height:550px;
+    width: 561px;
+    
+    margin-top: 5px;
+	border-radius: 8px;
+	background: #00000066;
+}
+header h4{
+	float: right;
+    padding-right: 42px;
+    padding-top: 35px;
+	color: white;
+}
+
+.first_page{
+	
+	height:800px;
+	padding-left: 400px!important;
+}
+
+hr{
+	border-top: 1px solid white !important;
+	margin-top:93px!important;
+}
+
+.name{
+	box-sizing: border-box;
+    padding: 13px;
+	border-radius:11px;
+    width: 447px;
+    margin-left: 57px;
+    background: deepskyblue;
+}
+
+.name label{
+	color:white;
+	font-size:18px;
+	margin-left:12px;
+}
+
+.name input{
+	border-radius: 7px;
+    padding: 13px;
+    padding-right: 207px;
+    margin-left: 12px;
+}
+
+.e-mail{
+	box-sizing: border-box;
+    padding: 13px;
+	border-radius:11px;
+    width: 447px;
+    margin-left: 57px;
+    background: deepskyblue;
+	margin-top:20px;
+}
+
+.password{
+	box-sizing: border-box;
+    padding: 13px;
+	border-radius:11px;
+    width: 447px;
+    margin-left: 57px;
+    background: deepskyblue;
+	margin-top:20px;
+}
+	
+.password label{
+	color:white;
+	font-size:18px;
+	margin-left:12px;
+}
+
+.password input{
+	border-radius: 7px;
+    padding: 13px;
+    padding-right: 207px;
+    margin-left: 12px;
+}
+
+.confirm-password{
+	box-sizing: border-box;
+	margin-top:20px;
+	border-radius:11px;
+    width: 79%;
+    margin-left: 57px;
+    background: deepskyblue;
+	padding-bottom:12px;
+}
+
+.confirm-password input{
+	border-radius: 7px;
+    padding: 13px;
+    padding-left: 207px;
+    margin-left: 25px;
+}
+
+.confirm-password label{
+	color:white;
+	font-size:18px;
+	margin-left:25px;
+}
+
+.e-mail input{
+	border-radius: 7px;
+    padding: 13px;
+    padding-right: 207px;
+    margin-left: 12px;
+}
+
+.e-mail label{
+	color:white;
+	font-size:18px;
+	margin-left:12px;
+}
+.sign-up button{
+padding-left: 65px;
+    padding-right: 65px;
+    margin-left: 183px;
+    margin-top: 17px;
+    background: papayawhip;
+    color: black;
+}
+
+.main-header .navbar-inverse{
+	background:#00000066!important;
+	border-color:#00000066!important;
+}
+
+ul li{
+	margin-top: 12px;
+    padding-left: 4px;
+}
+
+ul li button{
+	padding: 5px 25px 5px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+	padding: 5px 25px 5px 20px;
+}
+
+ul li input{
+	text-indent: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main-header .navbar-brand{
+	color:white!important;
+}
+
+ul li a{
+	color:white!important;
+}
+

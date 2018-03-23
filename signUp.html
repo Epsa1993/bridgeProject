@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<meta charset="UTF=8">
+		<meta name="viewport" content="width=device-width, initial-scale=1 ">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/javascriptfile.js"></script>
+	</head>
+	<body>
+					<div class="main-header">
+						<nav class="navbar navbar-inverse">
+							<div class="container-fluid">
+							<div class="col-md-12">
+							<div class="col-md-6">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="#">CUSTOMER-VENDOR</a>
+							</div>
+							</div>
+							<div class=="col-md-6 ep">
+							<ul class="nav navbar-nav e">
+								<li><input type="text" placeholder="Email or Password" /></li>
+								<li><input type="password" placeholder="password" /></li>
+								<li><button><strong>Sign In</strong></button></li>
+								<li><a>Forgot Password?</a></li>
+							</ul>
+							</div>
+							</div>
+						</nav>
+					</div>
+					<div class="clearfix"></div>
+					<div class="container-fluid">
+					<div class="row">					
+					<div class="col-md-6">
+					<form id="form_id" method="post" name="myform">
+				<div class="first_page" id="div1">
+					<div class="sign-up">
+						<header>
+							<h4><strong>CUSTOMER-VENDOR</strong> <sub><b>SIGN UP</b></sub></h4>
+						</header>
+							<hr />
+						<div class="name">
+							<label>NAME</label><br />
+							<input type="text" placeholder="" id="name" required />
+						</div>
+						<div class="e-mail">
+							<label>EMAIL or PHONE</label><br />
+							<input type="text"/>
+						</div>
+						<div class="password">
+							<label>PASSWORD</label><br />
+							<input type="password" id="psw" required />
+						</div>
+						<!--<div class="confirm-password"><br />
+							<label>CONFIRM PASSWORD</label>
+							<input type="password" />
+						</div>-->
+						<button class="btn btn-lg btn-primary" id="btn" onClick="validate()"><b>SIGN UP</b></button>
+					</div>
+					
+				</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
